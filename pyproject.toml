@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-fastapi-rinha-de-backend"
+version = "0.1.0"
+description = ""
+authors = ["Joao Santos <joaolfsa@outlook.com>"]
+readme = "README.md"
+packages = [{include = "python_fastapi_rinha_de_backend"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = {extras = ["all"], version = "^0.103.1"}
+python-dotenv = "^1.0.0"
+redis = "^5.0.0"
+motor = "^3.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
